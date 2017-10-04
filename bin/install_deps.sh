@@ -16,4 +16,4 @@ if [ ! -f "${ACT}" ]; then
 	pip install kivy
 fi
 source "${ACT}"
-pip install -r requirements.txt
+pip install -r ../requirements.txt
