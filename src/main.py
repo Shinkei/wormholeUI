@@ -1,12 +1,10 @@
 from kivy.app import App
-from kivy.uix.label import Label
 
 
-class MyApp(App):
+class SurfaceApp(App):
 
     def build(self):
-        return Label(text='Hello world')
-
+        print('Starting...')
 
 if __name__ == '__main__':
-    MyApp().run()
+    SurfaceApp().run()
