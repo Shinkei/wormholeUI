@@ -13,6 +13,7 @@ if [ ! -f "${ACT}" ]; then
 	source "${ACT}"
 	easy_install pip
 	pip install Cython==0.25.2
+	pip install hg+http://bitbucket.org/pygame/pygame
 	pip install kivy
 fi
 source "${ACT}"
