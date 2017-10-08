@@ -1,0 +1,14 @@
+#:kivy 1.10
+
+#:include inputrow.kv
+
+<ReceiveForm@BoxLayout>:
+    orientation: 'vertical'
+    InputRow:
+        label: 'firstL'
+        value: 'first'
+    InputRow:
+        label: 'secondL'
+        value: 'second'
+    Button:
+        text: 'Send'

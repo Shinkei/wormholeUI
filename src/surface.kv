@@ -1,4 +1,8 @@
 #:kivy 1.0
 
-Button:
-    text: 'Hello world'
+#:include sendform.kv
+#:include receiveform.kv
+
+PageLayout:
+	SendForm:
+	ReceiveForm:
